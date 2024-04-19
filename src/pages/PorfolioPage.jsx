@@ -16,7 +16,6 @@ const PorfolioPage = () => {
         dispatch(setColor("bg-[#06121A]"));
     }, [])
 
-    console.log(porfolioP)
     return (
         <div className=" w-full h-full flex flex-col justify-center items-center gap-5 px-2" >
             <h2 className=" text-center text-white text-xl sm:text-2xl md:text-3xl  font-bold mt-4">MIS <span className="text-[#4BDB9E]">PROYECTOS</span></h2>
