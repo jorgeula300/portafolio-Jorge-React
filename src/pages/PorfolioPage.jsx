@@ -11,7 +11,6 @@ import { useSelector } from "react-redux";
 const PorfolioPage = () => {
     const dispatch = useDispatch();
     const datosPotafolio = useSelector(state => state.datosPotafolioSlice)
-    console.log(datosPotafolio)
 
     useEffect(() => {
         dispatch(setColor("bg-[#06121A]"));

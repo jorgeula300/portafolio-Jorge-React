@@ -2,7 +2,7 @@ import { setDatosPotafolio } from "../../store/state/datosPotafolio.slice"
 import { useDispatch } from "react-redux"
 
 const ModalPortafolio = ({ datosPotafolio }) => {
-    console.log(datosPotafolio)
+
     const dispatch = useDispatch()
     const handleClose = () => {
         dispatch(setDatosPotafolio({ datos: null }))

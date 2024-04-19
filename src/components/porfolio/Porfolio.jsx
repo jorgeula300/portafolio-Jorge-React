@@ -3,7 +3,7 @@ import { setDatosPotafolio } from '../../store/state/datosPotafolio.slice'
 import { useDispatch } from 'react-redux'
 
 const Porfolio = ({ proyec }) => {
-    console.log(proyec)
+
     const dispatch = useDispatch()
 
     const handleModal = () => {
