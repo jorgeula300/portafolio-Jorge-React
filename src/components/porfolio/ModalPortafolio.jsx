@@ -23,7 +23,7 @@ const ModalPortafolio = ({ datosPotafolio }) => {
                 <div className=' w-full px-1 text-pretty'>
                     <p className=" font-medium" >{datosPotafolio.descrip}</p>
                 </div>
-                <h2 className=" text-lg text-center font-semibold">Tecnologias usadas</h2>
+                <h2 className=" text-lg text-center font-semibold">{datosPotafolio.tecno}</h2>
                 <div className=" w-full  grid grid-cols-4 justify-items-center">
                     {
                         datosPotafolio.skills.map(skill =>

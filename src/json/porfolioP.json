@@ -8,6 +8,7 @@
             "repo":"https://github.com/jorgeula300/galletafortuna",
             "link": "https://galletafortuna-pi.vercel.app/",
             "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
             "skills": [{
                 "name": "HTML",
                 "level": 90,
@@ -37,6 +38,7 @@
             "repo":"https://github.com/jorgeula300/WeatherApp-Jorge",
             "link" : "https://weather-app-jorge.vercel.app/",
             "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -65,6 +67,7 @@
             "repo":"https://github.com/jorgeula300/Rick-and-Morty-App-Jorge",
             "link" : "https://rick-and-morty-app-jorge.vercel.app/",
             "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -93,6 +96,7 @@
             "repo":"https://github.com/jorgeula300/registro-Usuarios-Jorge",
             "link" : "https://registro-usuarios-jorge.vercel.app/",
             "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -121,6 +125,7 @@
             "repo":"https://github.com/jorgeula300/poke-app-Jorge",
             "link" : "https://poke-app-jorge.vercel.app/",
             "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
