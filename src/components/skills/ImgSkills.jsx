@@ -1,7 +1,7 @@
 import skills from '../../json/skills.json'
 const ImgSkills = () => {
     return (
-        <div className=' w-[900px] grid sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4'>
+        <div className=' w-[900px] grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-4'>
             {
                 skills?.map(skill => (
                     <div className='flex flex-col items-center gap-2 w-[200px]' key={skill.name}>
