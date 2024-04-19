@@ -1,0 +1,153 @@
+{
+    "proyectos":[
+
+        {
+            "name": "Galletas de la fortuna",
+            "descrip": "Al abrir la aplicación, te recibe una frase inspiradora o un consejo práctico, cuidadosamente seleccionado al azar para iluminar tu camino. ¿No te convence del todo? ¡No hay problema! Simplemente presiona el botón 'Nueva frase' y deja que la serendipia te sorprenda con otra dosis de motivación o conocimiento.",
+            "img": "/Galleta-Fortuna.png",
+            "repo":"https://github.com/jorgeula300/galletafortuna",
+            "link": "https://galletafortuna-pi.vercel.app/",
+            "skills": [{
+                "name": "HTML",
+                "level": 90,
+                "img": "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img": "/CSS.png"
+            },{
+                "name": "TailwindCss",
+                "level": 90,
+                "img": "/Tailwindcss.png"
+            },{
+                "name": "JavaScrip",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "React",
+                "level": 90,
+                "img":"React.png"
+            }]
+        },
+        {
+            "name": "Weather App",
+            "descrip": "Con esta aplicacion web tendrás acceso a información meteorológica detallada y precisa en tiempo real. Para brindarte la mejor experiencia, la aplicacion web te solicitará permiso para acceder a tu ubicación. De esta manera, podrás disfrutar de: Temperatura actual, Velocidad del viento, Nubosidad, Presión atmosférica.",
+            "img": "/weather-app.png",
+            "repo":"https://github.com/jorgeula300/WeatherApp-Jorge",
+            "link" : "https://weather-app-jorge.vercel.app/",
+            "skills":[{
+                "name": "HTML",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img":"/CSS.png"
+            },{
+                "name": "TailwindCss",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "JavaScript",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "React",
+                "level": 90,
+                "img":"React.png"
+            }]
+        }, {
+            "name": "Rick and morty app",
+            "descrip": "¡Explora el multiverso y descubre a todos los personajes de Rick and Morty! Sumérgete en un universo de infinitas posibilidades y conoce a los habitantes de las 126 ubicaciones que componen el multiverso de Rick and Morty. Localiza tus personajes utilizando el buscador y navega por las 126 ubicaciones para encontrar a tus personajes favoritos.",
+            "img": "/Rick-and-morty-app.png",
+            "repo":"https://github.com/jorgeula300/Rick-and-Morty-App-Jorge",
+            "link" : "https://rick-and-morty-app-jorge.vercel.app/",
+            "skills":[{
+                "name": "HTML",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img":"/CSS.png"
+            },{
+                "name": "TailwindCss",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "JavaScript",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "React",
+                "level": 90,
+                "img":"React.png"
+            }]
+        }, {
+            "name": "Registro usuarios",
+            "descrip": " Desarrolle una app para registrar usuarios la cual tiene funcionalidades de un CRUD puedo crear,mostrar, modificar y eliminar los ususarios que estan en la base de datos.",
+            "img": "/Registro-usuarios.png",
+            "repo":"https://github.com/jorgeula300/registro-Usuarios-Jorge",
+            "link" : "https://registro-usuarios-jorge.vercel.app/",
+            "skills":[{
+                "name": "HTML",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img":"/CSS.png"
+            },{
+                "name": "TailwindCss",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "JavaScript",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "React",
+                "level": 90,
+                "img":"React.png"
+            }]
+        }, {
+            "name": "Poke App",
+            "descrip": "Desarrolle esta Poke App  para utilizar todo lo aprendido en react js, leei la api con la libreria de axios, tambien utilice la libreria de react router dom utilzando rutas protegidas, tambien utilce la libreria de Redux Toolkit para tener un estado global y asi poder evaluar en el ProtecteRoute si el nombre tiene mas de 3 caracteres en adelante para poder mostrar los pokemones.",
+            "img": "/poke-app.png",
+            "repo":"https://github.com/jorgeula300/poke-app-Jorge",
+            "link" : "https://poke-app-jorge.vercel.app/",
+            "skills":[{
+                "name": "HTML",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img":"/CSS.png"
+            },{
+                "name": "Tailwind Css",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "JavaScript",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "React",
+                "level": 90,
+                "img":"React.png"
+            },{
+                "name": "Redux Toolkit",
+                "level": 90,
+                "img":"/redux-icon.png"
+            }]
+        }
+
+    ],
+    "proximo":[{
+        "name": "Hotels App",
+        "descrip": "Muy pronto 😉",
+        "img": "/hotels-app.png"
+
+    }]
+}

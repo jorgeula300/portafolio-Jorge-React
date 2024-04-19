@@ -1,0 +1,44 @@
+[
+    {
+        "name": "HTML",
+        "img": "/Html.png"
+    }, {
+        "name": "CSS",
+        "img": "/CSS.png"
+
+    },
+    {
+        "name": "TailwindCSS",
+        "img": "/Tailwindcss.png"
+
+    },
+    {
+        "name": "JavaScript",
+        "img": "/JavaScrip.png"
+
+    },
+    {
+        "name": "TypeScript",
+        "img": "/TypeScrip.png"
+
+    },
+    {
+        "name": "Git",
+        "img": "/git.png"
+
+    },
+    {
+        "name": "React",
+        "img": "/React.png"
+
+    },
+    {
+        "name": "Redux Toolkit",
+        "img": "/redux-icon.png"
+
+    },
+    {
+        "name": "NextJS",
+        "img": "/Next-js.svg"
+    }
+]
