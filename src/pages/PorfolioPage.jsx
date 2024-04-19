@@ -13,12 +13,12 @@ const PorfolioPage = () => {
     const datosPotafolio = useSelector(state => state.datosPotafolioSlice)
 
     useEffect(() => {
-        dispatch(setColor("bg-[#06121A]"));
+        dispatch(setColor("bg-[#F1F6F3] dark:bg-[#06121A]"));
     }, [])
 
     return (
         <div className=" w-full h-full flex flex-col justify-center items-center gap-5 px-2" >
-            <h2 className=" text-center text-white text-xl sm:text-2xl md:text-3xl  font-bold mt-4">MIS <span className="text-[#4BDB9E]">PROYECTOS</span></h2>
+            <h2 className=" text-center dark:text-white text-xl sm:text-2xl md:text-3xl  font-bold mt-4">MIS <span className=" text-[#78AB92] dark:text-[#4BDB9E]">PROYECTOS</span></h2>
 
             <div className=' grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center w-full'>
 

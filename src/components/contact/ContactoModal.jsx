@@ -12,7 +12,7 @@ const ContactoModal = () => {
         <div className="fixed top-0 left-0 w-full min-h-[100vh] bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transform">
             <form
                 action="https://formsubmit.co/e67ca0570327480c899ec903760a583b" method="POST"
-                className={` flex flex-col justify-center items-center w-[95%] md:w-[80%] min-h-[300px] rounded-lg  ${headerColor} text-white relative`}
+                className={` flex flex-col justify-center items-center w-[95%] md:w-[80%] min-h-[300px] rounded-lg  ${headerColor} dark:text-white relative`}
             >
                 <div onClick={handleClose} className=" flex justify-center items-center absolute top-[1em] right-[1em]  bg-slate-50 text-red-600 rounded-full">
                     <i className='bx bxs-x-circle text-[30px]'></i>
@@ -78,7 +78,7 @@ const ContactoModal = () => {
 
                 <button
                     type="submit"
-                    className="boton__submit w-[50%] mb-5 mt-2 bg-[#2e7055] rounded-lg lg:text-lg font-semibold hover:bg-[#4BDB9E] hover:text-black"
+                    className="boton__submit w-[50%] mb-5 mt-2 bg-[#2e7055] rounded-lg lg:text-lg font-semibold text-white hover:bg-[#4BDB9E] hover:text-black"
                     value="Send Email"
                 >
                     Enviar
