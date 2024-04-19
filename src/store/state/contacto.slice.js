@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 export const contactoslice = createSlice({
     name: 'contacto',
-    initialState: false,
+    initialState:{idioma:null},
     reducers: {
         setContacto: (state, action) => {
             return action.payload;

@@ -9,7 +9,7 @@ const ModalPortafolio = ({ datosPotafolio }) => {
     }
 
     return (
-        <div className=" fixed top-0 left-0 w-full min-h-[100vh] bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transform px-2">
+        <div className=" fixed top-0 left-0 w-full min-h-[100vh] bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transform px-2 animate-fade animate-once animate-duration-1000">
             <div className=" dark:text-white w-full max-w-[500px] bg-[#78AB92] dark:bg-[#06121A] border m-auto absolute  rounded-xl space-y-3 pb-4">
                 <header className=' overflow-hidden  rounded-t-xl'>
                     <img src={datosPotafolio.img} alt={datosPotafolio.nome} />
@@ -41,7 +41,7 @@ const ModalPortafolio = ({ datosPotafolio }) => {
                 <div className=' w-full flex justify-center items-center space-x-3 font-medium'>
 
                     <a className=" bg-white text-black w-[5em] text-center py-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.repo} target="_blank"> <i className='bx bxl-github'></i> <span>Github</span></a>
-                    <a className=" bg-white text-black w-[5em] text-center p-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.link} target="_blank"> <i class='bx bx-link-alt'></i> <span>Ver</span></a>
+                    <a className=" bg-white text-black w-[5em] text-center p-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.link} target="_blank"> <i class='bx bx-link-alt'></i> <span>Link</span></a>
                 </div>
             </div>
         </div>

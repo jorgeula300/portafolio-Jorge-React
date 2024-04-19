@@ -10,7 +10,7 @@ const AboutPage = () => {
         dispatch(setColor("bg-[#F1F6F3] dark:bg-[#06121A]"));
     }, []);
     return (
-        <div className=' dark:text-white w-full h-[92.8vh] grid md:grid-cols-2 justify-items-center '>
+        <div className=' dark:text-white w-full h-[92.8vh] grid md:grid-cols-2 justify-items-center  animate-fade-up animate-once animate-duration-1000'>
             <ImgAbout />
             <Article />
         </div>

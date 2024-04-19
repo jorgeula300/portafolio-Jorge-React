@@ -2,12 +2,12 @@
     "proyectos":[
 
         {
-            "name": "Galletas de la fortuna",
-            "descrip": "Al abrir la aplicación, te recibe una frase inspiradora o un consejo práctico, cuidadosamente seleccionado al azar para iluminar tu camino. ¿No te convence del todo? ¡No hay problema! Simplemente presiona el botón 'Nueva frase' y deja que la serendipia te sorprenda con otra dosis de motivación o conocimiento.",
+            "name": "Fortune cookies",
+            "descrip": "When you open the app, you receive an inspiring quote or practical advice, carefully selected at random to light your path. Not completely convinced? No problem! Simply press the 'New Phrase' button and let serendipity surprise you with another dose of motivation or knowledge.",
             "img": "/Galleta-Fortuna.png",
             "repo":"https://github.com/jorgeula300/galletafortuna",
             "link": "https://galletafortuna-pi.vercel.app/",
-            "boton": "Ver mas",
+            "boton": "see more",
             "skills": [{
                 "name": "HTML",
                 "level": 90,
@@ -32,11 +32,11 @@
         },
         {
             "name": "Weather App",
-            "descrip": "Con esta aplicacion web tendrás acceso a información meteorológica detallada y precisa en tiempo real. Para brindarte la mejor experiencia, la aplicacion web te solicitará permiso para acceder a tu ubicación. De esta manera, podrás disfrutar de: Temperatura actual, Velocidad del viento, Nubosidad, Presión atmosférica.",
+            "descrip": "With this web application you will have access to detailed and accurate weather information in real time. To give you the best experience, the web app will ask for permission to access your location. This way, you can enjoy: Current temperature, Wind speed, Cloud cover, Atmospheric pressure.",
             "img": "/weather-app.png",
             "repo":"https://github.com/jorgeula300/WeatherApp-Jorge",
             "link" : "https://weather-app-jorge.vercel.app/",
-            "boton": "Ver mas",
+            "boton": "see more",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -60,11 +60,12 @@
             }]
         }, {
             "name": "Rick and morty app",
-            "descrip": "¡Explora el multiverso y descubre a todos los personajes de Rick and Morty! Sumérgete en un universo de infinitas posibilidades y conoce a los habitantes de las 126 ubicaciones que componen el multiverso de Rick and Morty. Localiza tus personajes utilizando el buscador y navega por las 126 ubicaciones para encontrar a tus personajes favoritos.",
+            "descrip": "Explore the multiverse and discover all the Rick and Morty characters! Immerse yourself in a universe of infinite possibilities and meet the inhabitants of the 126 locations that make up the Rick and Morty multiverse. Locate your characters using the search engine and navigate through the 126 locations to find your favorite characters.",
+        
             "img": "/Rick-and-morty-app.png",
             "repo":"https://github.com/jorgeula300/Rick-and-Morty-App-Jorge",
             "link" : "https://rick-and-morty-app-jorge.vercel.app/",
-            "boton": "Ver mas",
+            "boton": "see more",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -87,12 +88,12 @@
                 "img":"React.png"
             }]
         }, {
-            "name": "Registro usuarios",
-            "descrip": " Desarrolle una app para registrar usuarios la cual tiene funcionalidades de un CRUD puedo crear,mostrar, modificar y eliminar los ususarios que estan en la base de datos.",
+            "name": "User Registration",
+            "descrip": "I developed an app to register users which has CRUD functionalities: I can create, display, modify and delete the users that are in the database.",
             "img": "/Registro-usuarios.png",
             "repo":"https://github.com/jorgeula300/registro-Usuarios-Jorge",
             "link" : "https://registro-usuarios-jorge.vercel.app/",
-            "boton": "Ver mas",
+            "boton": "see more",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -116,11 +117,11 @@
             }]
         }, {
             "name": "Poke App",
-            "descrip": "Desarrolle esta Poke App  para utilizar todo lo aprendido en react js, leei la api con la libreria de axios, tambien utilice la libreria de react router dom utilzando rutas protegidas, tambien utilce la libreria de Redux Toolkit para tener un estado global y asi poder evaluar en el ProtecteRoute si el nombre tiene mas de 3 caracteres en adelante para poder mostrar los pokemones.",
+            "descrip": "I developed this Poke App to use everything I learned in react js, I read the api with the axios library, I also used the react router dom library using protected routes, I also used the Redux Toolkit library to have a global state and thus evaluate power in the ProtecteRoute if the name is more than 3 characters or more to be able to show the pokemons.",
             "img": "/poke-app.png",
             "repo":"https://github.com/jorgeula300/poke-app-Jorge",
             "link" : "https://poke-app-jorge.vercel.app/",
-            "boton": "Ver mas",
+            "boton": "see more",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -151,7 +152,7 @@
     ],
     "proximo":[{
         "name": "Hotels App",
-        "descrip": "Muy pronto 😉",
+        "descrip": "Coming soon 😉",
         "img": "/hotels-app.png"
 
     }]

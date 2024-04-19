@@ -1,7 +1,7 @@
-import { setColor } from "../store/state/headerColor.slice";
+import { setColor } from "../../store/state/headerColor.slice";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-const Home = () => {
+const HomeEn = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(setColor("bg-[#F1F6F3] dark:bg-[#091922]"));
@@ -10,10 +10,10 @@ const Home = () => {
     return (<div className=" grid  md:grid-cols-2 md:justify-items-center dark:text-white w-full min-h-[89vh] ">
         <div className=" flex justify-center items-center px-3 md:px-5">
             <div className="w-full max-w-[400px] xl:max-w-[500px] md:min-h-[20vh] space-y-3 animate-fade-right animate-once animate-duration-1000">
-                <h2 className=" text-lg font-bold text-center md:text-2xl xl:text-3xl "><span className=" text-[#78AB92] dark:text-[#4BDB9E]">Hola</span> soy Jorge</h2>
-                <p className=" font-medium md:text-lg xl:text-2xl">Soy desarrollador web, apasionado por la tecnología y la programación.</p>
+                <h2 className=" text-lg font-bold text-center md:text-2xl xl:text-3xl  "><span className=" text-[#78AB92] dark:text-[#4BDB9E]">Hi</span > I am Jorge</h2>
+                <p className=" font-medium md:text-lg xl:text-2xl">I am a web developer, passionate about technology and programming.</p>
                 <div className=" flex items-center space-x-3">
-                    <button className="border-solid bg-[#78AB92] text-slate-200 hover:bg-[#4BDB9E]  px-2 py-1 rounded-lg font-medium text-sm xl:text-lg">Descargar cv</button>
+                    <button className="border-solid bg-[#78AB92] text-slate-200 hover:bg-[#4BDB9E]  px-2 py-1 rounded-lg font-medium text-sm xl:text-lg">Download cv</button>
                     <a href="https://www.linkedin.com/in/jorge-luis-sanchez-mendoza-26a0a1245/" target="_blank" rel="noopener noreferrer"><img src="/icons8-linkedin.svg" alt="iconoLinke" className=" w-7 h-7 xl:w-9 xl:h-9" /></a>
                     <a href="https://github.com/jorgeula300" target="_blank" rel="noopener noreferrer"> <img src="/icons8-github.svg" alt="iconoGit" className=" fill-[#78AB92] w-7 h-7 xl:w-9 xl:h-9" /></a>
 
@@ -32,4 +32,4 @@ const Home = () => {
     </div>);
 }
 
-export default Home;
+export default HomeEn;

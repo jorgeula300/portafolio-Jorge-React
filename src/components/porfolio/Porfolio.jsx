@@ -24,7 +24,7 @@ const Porfolio = ({ proyec }) => {
                 <p className=" parrafo">{proyec.descrip}</p>
             </div>
             <div className=' w-full flex justify-center items-center'>
-                <button onClick={handleModal} className=' bg-slate-50 text-black px-2 py-1 rounded-xl hover:bg-slate-300'>Ver mas</button>
+                <button onClick={handleModal} className=' bg-slate-50 text-black px-2 py-1 rounded-xl hover:bg-slate-300'>{proyec.boton}</button>
             </div>
 
         </div>
