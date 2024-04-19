@@ -10,7 +10,7 @@ const Skills = () => {
         dispatch(setColor("bg-[#F1F6F3] dark:bg-[#091922]"));
     }, []);
     return (
-        <div className=' w-full py-3 flex flex-col justify-center items-center dark:text-white space-y-5 space-y-5 animate-fade-up animate-once animate-duration-1000'>
+        <div className=' w-full py-3 flex flex-col justify-center items-center dark:text-white space-y-5 animate-fade-up animate-once animate-duration-1000'>
             <h2 className=' text-xl sm:text-2xl md:text-3xl font-bold'>MIS <span className='text-[#78AB92] dark:text-[#4BDB9E]'>HABILIDADES</span></h2>
             <ImgSkills />
 
