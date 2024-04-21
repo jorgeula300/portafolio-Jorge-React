@@ -20,7 +20,7 @@ import ContactoModalEn from './components/contact/ContactoModalEn'
 function App() {
   const headerColor = useSelector(state => state.headerColorSlice)
   const contacto = useSelector(state => state.contactoSlice)
-  console.log(contacto)
+
 
 
   return (

@@ -152,13 +152,41 @@
                 "level": 90,
                 "img":"/redux-icon.png"
             }]
+        },{
+            "name": "Hotels App",
+            "descrip": "On this website I bring together everything I have learned in react up to this point, reading an API that brings to some hotels that are offering room services in different countries.",
+            "img": "/hotels-app.png",
+            "repo": "https://github.com/jorgeula300/hoteles-Jorge",
+            "link": "https://hotels-jorge.vercel.app/",
+            "boton": "see more",
+            "tecno":"Technologies used",
+            "skills":[{
+                "name": "HTML",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img":"/CSS.png"
+            },{
+                "name": "Tailwind Css",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "JavaScript",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "React",
+                "level": 90,
+                "img":"React.png"
+            },{
+                "name": "Redux Toolkit",
+                "level": 90,
+                "img":"/redux-icon.png"
+            }]
+
         }
 
-    ],
-    "proximo":[{
-        "name": "Hotels App",
-        "descrip": "Coming soon 😉",
-        "img": "/hotels-app.png"
-
-    }]
+    ]
 }

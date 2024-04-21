@@ -39,7 +39,7 @@ const NavBar = () => {
                 <Link className="text-2xl md:text-4xl font-bold" to='/'>
                     Deve<span className=" text-[#091922] dark:text-[#4BDB9E]">loper</span>
                 </Link>
-                <nav onClick={handleMenu} className={` ${!menu && 'hidden'} fixed top-0 left-0 w-full min-h-[100vh] backdrop-blur-[2px]  md:block  md:relative md:min-h-0 md:bg-transparent md:w-auto md:top-auto md:left-auto flex justify-center items-center transition-transform z-40`}>
+                <nav onClick={handleMenu} className={` ${!menu && 'hidden'} fixed top-0 left-0 w-full min-h-[100vh] backdrop-blur-[2px]  md:block  md:relative md:min-h-0 md:bg-transparent md:w-auto md:top-auto md:left-auto flex justify-center items-center transition-transform z-30`}>
                     <ul className=" w-full max-w-[300px] rounded-md py-3 flex flex-col  justify-center items-center mr-3 space-y-4  bg-[#091922] md:bg-transparent md:space-y-0  md:w-auto md:max-w-full md:space-x-4  md:flex-row [&>li]:text-lg [&>li]:font-semibold [&>li]:text-center ">
                         <li><Link
                             className="hover:text-black dark:hover:text-[#4BDB9E]"

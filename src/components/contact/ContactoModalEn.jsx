@@ -10,7 +10,7 @@ const ContactoModalEn = () => {
     }
     return (
         <div className="fixed top-0 left-0 w-full min-h-[100vh] bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transhtmlForm animate-fade animate-once animate-duration-1000">
-            <htmlForm
+            <form
                 action="https://htmlFormsubmit.co/e67ca0570327480c899ec903760a583b" method="POST"
                 className={` flex flex-col justify-center items-center w-[95%] md:w-[80%] min-h-[300px] rounded-lg  ${headerColor} dark:text-white relative`}
             >
@@ -83,7 +83,7 @@ const ContactoModalEn = () => {
                 >
                     Send
                 </button>
-            </htmlForm>
+            </form>
         </div>
     );
 };
