@@ -9,9 +9,9 @@ const ContactoModalEn = () => {
         dispatch(setContacto(false));
     }
     return (
-        <div className="fixed top-0 left-0 w-full min-h-[100vh] bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transform animate-fade animate-once animate-duration-1000">
-            <form
-                action="https://formsubmit.co/e67ca0570327480c899ec903760a583b" method="POST"
+        <div className="fixed top-0 left-0 w-full min-h-[100vh] bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transhtmlForm animate-fade animate-once animate-duration-1000">
+            <htmlForm
+                action="https://htmlFormsubmit.co/e67ca0570327480c899ec903760a583b" method="POST"
                 className={` flex flex-col justify-center items-center w-[95%] md:w-[80%] min-h-[300px] rounded-lg  ${headerColor} dark:text-white relative`}
             >
                 <div onClick={handleClose} className=" flex justify-center items-center absolute top-[1em] right-[1em] cursor-pointer  bg-slate-50 text-red-600 rounded-full">
@@ -20,7 +20,7 @@ const ContactoModalEn = () => {
                 <h2 className="text-center font-bold lg:text-2xl my-5">Contact</h2>
                 <div className="flex flex-col md:flex-row justify-center items-center space-x-4 [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:space-y-3 mb-2 [&>div>input]:w-[260px] lg:[&>div>input]:w-[300px] [&>div>input]:bg-transparent [&>div>input]:border-2 [&>div>input]:border-solid [&>div>input]:border-b-[#2e7055] [&>div>input]:border-x-transparent [&>div>input]:border-t-transparent">
                     <div className="div__interno_contact">
-                        <label for="">Full name</label>
+                        <label htmlFor="">Full name</label>
                         <input
                             className="imput__contact nombre__contact"
                             type="text"
@@ -30,7 +30,7 @@ const ContactoModalEn = () => {
                         />
                     </div>
                     <div className="div__interno_contact">
-                        <label for="">Email</label>
+                        <label htmlFor="">Email</label>
                         <input
                             className="imput__contact correo__contact"
                             type="email"
@@ -43,7 +43,7 @@ const ContactoModalEn = () => {
 
                 <div className="caja__contact contact__caja2 flex flex-col md:flex-row justify-center items-center space-x-4 [&>div]:flex [&>div]:flex-col [&>div]:justify-center [&>div]:space-y-3 mb-2 [&>div>input]:w-[260px] lg:[&>div>input]:w-[300px] [&>div>input]:bg-transparent [&>div>input]:border-2 [&>div>input]:border-solid [&>div>input]:border-b-[#2e7055] [&>div>input]:border-x-transparent [&>div>input]:border-t-transparent">
                     <div className="div__interno_contact">
-                        <label for="">Phone number</label>
+                        <label htmlFor="">Phone number</label>
                         <input
                             className="imput__contact asunto__contact"
                             type="number"
@@ -54,7 +54,7 @@ const ContactoModalEn = () => {
                     </div>
 
                     <div className="div__interno_contact">
-                        <label for="">Affair</label>
+                        <label htmlFor="">Affair</label>
                         <input
                             className="imput__contact asunto__contact"
                             type="text"
@@ -66,7 +66,7 @@ const ContactoModalEn = () => {
                 </div>
 
                 <div className="caja__contact__textarea flex flex-col justify-center md:w-[580px] lg:w-[610px] m-auto">
-                    <label for="">Message</label>
+                    <label htmlFor="">Message</label>
                     <textarea
                         className="textarea__contact texto__contact bg-transparent border-2 border-solid border-t-transparent border-x-transparent border-b-[#2e7055]"
                         name="Texto"
@@ -83,7 +83,7 @@ const ContactoModalEn = () => {
                 >
                     Send
                 </button>
-            </form>
+            </htmlForm>
         </div>
     );
 };
