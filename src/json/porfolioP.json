@@ -153,7 +153,7 @@
             }]
         },{
             "name": "Hotels App",
-            "descrip": "En esta pagina web reuno todo lo que he aprendido en react hasta este momento, leyendo una api que trae a unos hoteles que estan ofrecioendo los servicios de habitaciones en distintos paises.",
+            "descrip": "En esta pagina web reuno todo lo que he aprendido en react hasta este momento, leyendo una api que trae a unos hoteles que estan ofreciendo los servicios de habitaciones en distintos paises.",
             "img": "/hotels-app.png",
             "repo": "https://github.com/jorgeula300/hoteles-Jorge",
             "link": "https://hotels-jorge.vercel.app/",
