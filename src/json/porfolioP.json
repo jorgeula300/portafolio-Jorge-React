@@ -183,7 +183,18 @@
                 "name": "Redux Toolkit",
                 "level": 90,
                 "img":"/redux-icon.png"
-            }]
+            },
+            {
+                "name":"Express",
+                "level":90,
+                "img":"/Express.png"
+            },
+            {
+                "name":"Postgresql",
+                "level":90,
+                "img":"/PosgresSql.png"
+            }
+        ]
 
         }
 

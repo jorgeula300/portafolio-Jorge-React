@@ -40,5 +40,29 @@
     {
         "name": "NextJS",
         "img": "/Next-js.svg"
+    },
+    {
+        "name":"NodeJS",
+        "img":"/Node.png"
+    },
+    {
+        "name":"Express",
+        "img":"/Express.png"
+    },
+    {
+        "name":"Postgresql",
+        "img":"/PosgresSql.png"
+    },
+    {
+        "name":"Sequelize ORM",
+        "img":"/Sequelize.png"
+    },
+    {
+        "name":"Prisma ORM",
+        "img":"/PrismaORM.png"
+    },
+    {
+        "name":"MongoDB",
+        "img":"/Mongo.png"
     }
 ]
