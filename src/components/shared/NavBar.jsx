@@ -2,9 +2,11 @@ import { Link, Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { setContacto } from "../../store/state/contacto.slice";
 import { useDispatch } from 'react-redux'
+import { useLocation } from "react-router-dom";
 
 const NavBar = () => {
 
+    const location = useLocation();
     const [menu, setMenu] = useState(false);
     const [theme, setTheme] = useState(() => {
         if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -13,6 +15,15 @@ const NavBar = () => {
             return 'light'
         }
     })
+
+    useEffect(() => {
+        if (location.hash) {
+            const element = document.getElementById(location.hash.replace('#', ''));
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    }, [location])
 
     useEffect(() => {
         if (theme === 'dark') {
@@ -35,33 +46,33 @@ const NavBar = () => {
     }
     return (
         <>
-            <header className={`flex justify-between items-center text-white px-3 bg-[#78AB92] dark:bg-transparent `}>
-                <Link className="text-2xl md:text-4xl font-bold" to='/'>
+            <header className={`w-full flex justify-between items-center text-white px-3 bg-[#78AB92] dark:bg-transparent fixed z-50 `}>
+                <Link className="text-2xl md:text-4xl font-bold" to='/#home'>
                     Deve<span className=" text-[#091922] dark:text-[#4BDB9E]">loper</span>
                 </Link>
                 <nav onClick={handleMenu} className={` ${!menu && 'hidden'} fixed top-0 left-0 w-full min-h-[100vh] backdrop-blur-[2px]  md:block  md:relative md:min-h-0 md:bg-transparent md:w-auto md:top-auto md:left-auto flex justify-center items-center transition-transform z-30`}>
                     <ul className=" w-full max-w-[300px] rounded-md py-3 flex flex-col  justify-center items-center mr-3 space-y-4  bg-[#091922] md:bg-transparent md:space-y-0  md:w-auto md:max-w-full md:space-x-4  md:flex-row [&>li]:text-lg [&>li]:font-semibold [&>li]:text-center ">
                         <li><Link
                             className="hover:text-black dark:hover:text-[#4BDB9E]"
-                            to='/'
+                            to='/#home'
                         >
                             Inicio
                         </Link></li>
                         <li><Link
                             className="hover:text-black dark:hover:text-[#4BDB9E]"
-                            to='/about'>
+                            to='/#about'>
                             Acerca de mí
                         </Link></li>
                         <li>
                             <Link
                                 className="hover:text-black dark:hover:text-[#4BDB9E]"
-                                to='/skills'>
+                                to='/#skills'>
                                 Habilidades
                             </Link>
                         </li>
                         <li><Link
                             className="hover:text-black dark:hover:text-[#4BDB9E]"
-                            to='/porfolio'>
+                            to='/#porfolio'>
                             Portafolio
                         </Link></li>
                         <li>
