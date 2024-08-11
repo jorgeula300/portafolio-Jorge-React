@@ -186,6 +186,28 @@
                 "img":"/redux-icon.png"
             }]
 
+        },{
+            "name":"Wordwise",
+            "descrip":"Discover meanings, synonyms, antonyms, and much more with our word search tool. Designed for students, writers, and professionals, this powerful tool allows you to explore language quickly and efficiently.",
+            "img":"/Wordwise.png",
+            "repo":"https://github.com/jorgeula300/prueba-tecnica-jorge",
+            "link":"https://wordwise-ruby.vercel.app/",
+            "boton":"see more",
+            "tecno":"Technologies used",
+            "skills":[{
+                "name": "NextJS",
+                "level": 90,
+                "img" : "/Next-js.svg"
+            },{
+                "name": "Tailwind Css",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "Typescript",
+                "level": 90,
+                "img": "/TypeScrip.png"
+            }]
+
         }
 
     ]
