@@ -2,43 +2,63 @@
     "proyectos":[
 
         {
-            "name": "Galletas de la fortuna",
-            "descrip": "Al abrir la aplicación, te recibe una frase inspiradora o un consejo práctico, cuidadosamente seleccionado al azar para iluminar tu camino. ¿No te convence del todo? ¡No hay problema! Simplemente presiona el botón 'Nueva frase' y deja que la serendipia te sorprenda con otra dosis de motivación o conocimiento.",
-            "img": "/Galleta-Fortuna.png",
-            "repo":"https://github.com/jorgeula300/galletafortuna",
-            "link": "https://galletafortuna-pi.vercel.app/",
+            "name": "PotenciAfro Marketplace",
+            "descrip": "Junto a un equipo de trabajo, desarrollamos la plataforma de marketplace para PotenciAfro, la cual incluye un módulo de comercio electrónico (e-commerce), una sección para la oferta y gestión de cursos, y un espacio destinado a la búsqueda y conexión de talento humano.",
+            "img": "/PotenciAfro.png",
+            "repo":"",
+            "link": "https://potenciafroconectatech.com/",
             "boton": "Ver mas",
             "tecno":"Tecnologias usadas",
             "skills": [{
-                "name": "HTML",
+                "name": "WordPress",
                 "level": 90,
-                "img": "/Html.png"
+                "img": "/wordpress.png"
             },{
-                "name": "CSS",
+                "name": "Elementor",
                 "level": 90,
-                "img": "/CSS.png"
+                "img":"Elementor.png"
+            },
+            {
+                "name": "Woocommerce",
+                "level": 90,
+                "img": "/Woo_logo_white1.png"
             },{
-                "name": "TailwindCss",
+                "name": "TutorLMS",
                 "level": 90,
-                "img": "/Tailwindcss.png"
+                "img": "/tutorlms.png"
             },{
-                "name": "JavaScrip",
+                "name": "Ultimate M",
                 "level": 90,
-                "img": "/JavaScrip.png"
-            },{
-                "name": "React",
-                "level": 90,
-                "img":"React.png"
+                "img": "/ultimate.png"
             }]
         },
         {
-            "name": "Weather App",
-            "descrip": "Con esta aplicacion web tendrás acceso a información meteorológica detallada y precisa en tiempo real. Para brindarte la mejor experiencia, la aplicacion web te solicitará permiso para acceder a tu ubicación. De esta manera, podrás disfrutar de: Temperatura actual, Velocidad del viento, Nubosidad, Presión atmosférica.",
-            "img": "/weather-app.png",
-            "repo":"https://github.com/jorgeula300/WeatherApp-Jorge",
-            "link" : "https://weather-app-jorge.vercel.app/",
+            "name": "Sinecio Mina Web",
+            "descrip": "En mi trabajo anterior, se me encomendó la creación del sitio web del Movimiento Investigativo Histórico Cultural Sinecio Mina, una organización de base dedicada a la defensa de los derechos humanos, así como a la protección de los derechos de los niños, niñas, familias y comunidades negras.",
+            "img": "/sinecioM.png",
+            "repo":"",
+            "link" : "https://movimientosineciomina.org/",
             "boton": "Ver mas",
             "tecno":"Tecnologias usadas",
+            "textLink": "Muy Pronto",
+            "skills":[{
+                "name": "WordPress",
+                "level": 90,
+                "img": "/wordpress.png"
+            },{
+                "name": "Elementor",
+                "level": 90,
+                "img":"Elementor.png"
+            }]
+        } ,{
+            "name": "Virtual Pet",
+            "descrip": "Desarrollé un sitio web de agendamiento de citas para mascotas, donde los usuarios pueden consultar todos los servicios ofrecidos por un veterinario virtual. Para agendar una cita, es necesario registrarse e iniciar sesión. Una vez autenticado, el usuario puede seleccionar el veterinario de su preferencia y llevar un registro detallado del historial médico de cada una de sus mascotas.",
+            "img": "/VirtualPet.png",
+            "repo": "",
+            "link": "",
+            "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
+            "textLink": "En Mantenimiento",
             "skills":[{
                 "name": "HTML",
                 "level": 90,
@@ -48,7 +68,42 @@
                 "level": 90,
                 "img":"/CSS.png"
             },{
-                "name": "TailwindCss",
+                "name": "Tailwind Css",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "JavaScript",
+                "level": 90,
+                "img": "/JavaScrip.png"
+            },{
+                "name": "Express",
+                "level": 90,
+                "img":"/Express.png"
+            },{
+                "name": "PosgresSql",
+                "level": 90,
+                "img":"/PosgresSql.png"
+            }]
+
+        } ,{
+            "name": "Hotels App",
+            "descrip": "En esta pagina web reuno todo lo que he aprendido en react hasta este momento, leyendo una api que trae a unos hoteles que estan ofreciendo los servicios de habitaciones en distintos paises.",
+            "img": "/hotels-app.png",
+            "repo": "",
+            "link": "",
+            "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
+            "textLink": "En Mantenimiento",
+            "skills":[{
+                "name": "HTML",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "CSS",
+                "level": 90,
+                "img":"/CSS.png"
+            },{
+                "name": "Tailwind Css",
                 "level": 90,
                 "img":"/Tailwindcss.png"
             },{
@@ -59,8 +114,46 @@
                 "name": "React",
                 "level": 90,
                 "img":"React.png"
+            },{
+                "name": "Redux Toolkit",
+                "level": 90,
+                "img":"/redux-icon.png"
+            },
+            {
+                "name":"Express",
+                "level":90,
+                "img":"/Express.png"
+            },
+            {
+                "name":"Postgresql",
+                "level":90,
+                "img":"/PosgresSql.png"
+            }
+        ]
+
+        },{
+            "name":"Wordwise",
+            "descrip":"Descubre el significado, sinónimos, antónimos y mucho más con nuestro buscador de palabras. Diseñado para estudiantes, escritores y profesionales, este potente buscador te permite explorar el lenguaje de manera rápida y eficiente.",
+            "img":"/Wordwise.png",
+            "repo":"https://github.com/jorgeula300/prueba-tecnica-jorge",
+            "link":"https://wordwise-ruby.vercel.app/",
+            "boton": "Ver mas",
+            "tecno":"Tecnologias usadas",
+            "skills":[{
+                "name": "NextJS",
+                "level": 90,
+                "img" : "/Next-js.svg"
+            },{
+                "name": "Tailwind Css",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "Typescript",
+                "level": 90,
+                "img": "/TypeScrip.png"
             }]
-        }, {
+
+        },  {
             "name": "Rick and morty app",
             "descrip": "¡Explora el multiverso y descubre a todos los personajes de Rick and Morty! Sumérgete en un universo de infinitas posibilidades y conoce a los habitantes de las 126 ubicaciones que componen el multiverso de Rick and Morty. Localiza tus personajes utilizando el buscador y navega por las 126 ubicaciones para encontrar a tus personajes favoritos.",
             "img": "/Rick-and-morty-app.png",
@@ -151,73 +244,6 @@
                 "level": 90,
                 "img":"/redux-icon.png"
             }]
-        },{
-            "name": "Hotels App",
-            "descrip": "En esta pagina web reuno todo lo que he aprendido en react hasta este momento, leyendo una api que trae a unos hoteles que estan ofreciendo los servicios de habitaciones en distintos paises.",
-            "img": "/hotels-app.png",
-            "repo": "https://github.com/jorgeula300/hoteles-Jorge",
-            "link": "https://hotels-jorge.vercel.app/",
-            "boton": "Ver mas",
-            "tecno":"Tecnologias usadas",
-            "skills":[{
-                "name": "HTML",
-                "level": 90,
-                "img" : "/Html.png"
-            },{
-                "name": "CSS",
-                "level": 90,
-                "img":"/CSS.png"
-            },{
-                "name": "Tailwind Css",
-                "level": 90,
-                "img":"/Tailwindcss.png"
-            },{
-                "name": "JavaScript",
-                "level": 90,
-                "img": "/JavaScrip.png"
-            },{
-                "name": "React",
-                "level": 90,
-                "img":"React.png"
-            },{
-                "name": "Redux Toolkit",
-                "level": 90,
-                "img":"/redux-icon.png"
-            },
-            {
-                "name":"Express",
-                "level":90,
-                "img":"/Express.png"
-            },
-            {
-                "name":"Postgresql",
-                "level":90,
-                "img":"/PosgresSql.png"
-            }
-        ]
-
-        },{
-            "name":"Wordwise",
-            "descrip":"Descubre el significado, sinónimos, antónimos y mucho más con nuestro buscador de palabras. Diseñado para estudiantes, escritores y profesionales, este potente buscador te permite explorar el lenguaje de manera rápida y eficiente.",
-            "img":"/Wordwise.png",
-            "repo":"https://github.com/jorgeula300/prueba-tecnica-jorge",
-            "link":"https://wordwise-ruby.vercel.app/",
-            "boton": "Ver mas",
-            "tecno":"Tecnologias usadas",
-            "skills":[{
-                "name": "NextJS",
-                "level": 90,
-                "img" : "/Next-js.svg"
-            },{
-                "name": "Tailwind Css",
-                "level": 90,
-                "img":"/Tailwindcss.png"
-            },{
-                "name": "Typescript",
-                "level": 90,
-                "img": "/TypeScrip.png"
-            }]
-
         }
 
     ]

@@ -9,7 +9,7 @@ const ModalPortafolio = ({ datosPotafolio }) => {
     }
 
     return (
-        <div className=" fixed top-0 left-0 w-full min-h-[100vh] z-50 bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transform px-2 animate-fade animate-once animate-duration-1000">
+        <div onClick={handleClose} className=" fixed top-0 left-0 w-full min-h-[100vh] z-50 bg-[#0003] backdrop-blur-[2px] flex justify-center items-center transition-transform px-2 animate-fade animate-once animate-duration-1000">
             <div className=" dark:text-white w-full max-w-[500px] bg-[#78AB92] dark:bg-[#06121A] border m-auto absolute  rounded-xl space-y-3 pb-4">
                 <header className=' overflow-hidden  rounded-t-xl'>
                     <img src={datosPotafolio.img} alt={datosPotafolio.nome} />
@@ -39,9 +39,9 @@ const ModalPortafolio = ({ datosPotafolio }) => {
 
 
                 <div className=' w-full flex justify-center items-center space-x-3 font-medium'>
+                    {datosPotafolio.repo ? <a className=" bg-white text-black w-[5em] text-center py-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.repo} target="_blank"> <i className='bx bxl-github'></i> <span>Github</span></a> : null}
+                    {datosPotafolio.link ? <a className=" bg-white text-black w-[5em] text-center p-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.link} target="_blank"> <i className='bx bx-link-alt'></i> <span>Link</span></a> : <a className=" bg-white text-black w-[15em] text-center p-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href="https://portafolio-jorge-react.vercel.app/" > <i className='bx bx-link-alt'></i> <span> {datosPotafolio.textLink} </span></a>}
 
-                    <a className=" bg-white text-black w-[5em] text-center py-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.repo} target="_blank"> <i className='bx bxl-github'></i> <span>Github</span></a>
-                    <a className=" bg-white text-black w-[5em] text-center p-2 rounded-md flex justify-center items-center gap-2 hover:bg-slate-300" href={datosPotafolio.link} target="_blank"> <i className='bx bx-link-alt'></i> <span>Link</span></a>
                 </div>
             </div>
         </div>

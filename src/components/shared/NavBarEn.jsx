@@ -44,7 +44,7 @@ const NavBarEn = () => {
         setTheme(theme === "light" ? "dark" : "light")
     }
     return (<>
-        <header className={`w-full flex justify-between items-center  text-white px-3 bg-[#78AB92] dark:bg-transparent fixed z-50 `}>
+        <header className={`w-full flex justify-between items-center  text-white px-3 bg-[#78AB92] dark:bg-transparent fixed z-40 `}>
             <Link className="text-2xl md:text-4xl font-bold" to='/homeEN#homeEN'>
                 Deve<span className=" text-[#091922] dark:text-[#4BDB9E]">loper</span>
             </Link>

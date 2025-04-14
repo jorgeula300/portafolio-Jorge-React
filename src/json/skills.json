@@ -42,6 +42,26 @@
         "img": "/Next-js.svg"
     },
     {
+        "name": "WordPress",
+        "img": "/wordpress.png"
+    },
+    {
+        "name": "Elementor",
+        "img": "/Elementor.png"
+    },
+    {
+        "name":"Woocommerce",
+        "img":"/Woo_logo_white1.png"
+    },
+    {
+        "name":"TutorLMS",
+        "img":"/tutorlmsb.png"
+    },
+    {
+        "name":"Ultimate Member",
+        "img":"/ultimate.png"
+    },
+    {
         "name":"NodeJS",
         "img":"/Node.png"
     },
