@@ -52,10 +52,10 @@
             }]
         } ,{
             "name": "Virtual Pet",
-            "descrip": "Desarrollé un sitio web de agendamiento de citas para mascotas, donde los usuarios pueden consultar todos los servicios ofrecidos por un veterinario virtual. Para agendar una cita, es necesario registrarse e iniciar sesión. Una vez autenticado, el usuario puede seleccionar el veterinario de su preferencia y llevar un registro detallado del historial médico de cada una de sus mascotas.",
+            "descrip": "Desarrollé un sitio web de agendamiento de citas para mascotas, donde los usuarios pueden consultar todos los servicios ofrecidos por un veterinario virtual. Para mas informacion lee el Readme en Github.",
             "img": "/VirtualPet.png",
-            "repo": "",
-            "link": "",
+            "repo": "https://github.com/jorgeula300/front-virtual-pet.git",
+            "link": "https://front-virtual-pet.vercel.app/index.html",
             "boton": "Ver mas",
             "tecno":"Tecnologias usadas",
             "textLink": "En Mantenimiento",
