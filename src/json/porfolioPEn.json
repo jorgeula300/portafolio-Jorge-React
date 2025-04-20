@@ -50,6 +50,33 @@
                 "img":"Elementor.png"
             }]
         } ,{
+            "name": "FinCo",
+            "descrip": "FinCo is a web application that provides a detailed view of the different financial products offered by a fictional bank. The main goal of the project is to provide a clear and user-friendly experience, allowing users to learn about and explore each available product.",
+            "img": "/FinCo.png",
+            "repo": "https://github.com/jorgeula300/bank-landing.git",
+            "link": "https://bank-landing-kappa.vercel.app/",
+            "boton": "see more",
+            "tecno":"Technologies used",
+            "textLink": "Under maintenance",
+            "skills":[{
+                "name": "Next.js",
+                "level": 90,
+                "img" : "/Html.png"
+            },{
+                "name": "Tailwind Css",
+                "level": 90,
+                "img":"/Tailwindcss.png"
+            },{
+                "name": "Typescript",
+                "level": 90,
+                "img": "/TypeScrip.png"
+            },{
+                "name": "Redux Toolkit",
+                "level": 90,
+                "img":"/redux-icon.png"
+            }]
+
+        },{
             "name": "Virtual Pet",
             "descrip": "I developed a pet appointment scheduling website where users can browse all the services offered by a virtual veterinarian. To book an appointment, users must register and log in. Once authenticated, they can choose their preferred veterinarian and keep a detailed record of each pet's medical history on the platform.",
             "img": "/VirtualPet.png",
