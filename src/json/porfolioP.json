@@ -62,7 +62,7 @@
             "skills":[{
                 "name": "Next.js",
                 "level": 90,
-                "img" : "/Html.png"
+                "img" : "/Next-js.svg"
             },{
                 "name": "Tailwind Css",
                 "level": 90,
